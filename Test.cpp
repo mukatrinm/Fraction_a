@@ -1,3 +1,5 @@
+#include <limits>
+
 #include "doctest.h"
 #include "sources/Fraction.hpp"
 
@@ -39,7 +41,7 @@ TEST_CASE("Exceptions Test") {
     SUBCASE("Overflow/Underflow") {
         int max_int = std::numeric_limits<int>::max();
         int min_int = std::numeric_limits<int>::min();
-        
+
         Fraction a(max_int, 1);
         Fraction b(min_int, 1);
 
