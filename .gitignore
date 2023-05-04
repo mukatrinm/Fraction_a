@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+
+/build/*
+/cmake-build-debug/*
+/.idea/*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
